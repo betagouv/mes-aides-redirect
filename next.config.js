@@ -27,7 +27,7 @@ module.exports = {
         ],
       },*/
       {
-        source: '/',
+        source: '/(.*)',
         destination: 'https://www.mesdroitssociaux.gouv.fr?utm_source=mes-aides&utm_medium=basic',
         permanent: false,
       },

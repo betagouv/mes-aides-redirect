@@ -1,34 +1,23 @@
 module.exports = {
   reactStrictMode: true,
   async redirects() {
-    return [
-/*      {
-        source: '/',
-        destination: '/local',
+    if (process.env.PROXY !== 'on') {
+      return [{
+        source: '/(.?)',
+        destination: 'https://www.mesdroitssociaux.gouv.fr?utm_source=mes-aides&utm_medium=basic',
         permanent: false,
-        has: [
-          {
-            type: 'header',
-            key: 'referer',
-            value: '.*localhost.*',
-          },
-        ],
+      }]
+    }
+
+    return [
+      {
+        source: '/redirection/1jeune1solution',
+        destination: 'https://www.1jeune1solution.gouv.fr/mes-aides?utm_source=mes-aides&utm_medium=alternative',
+        permanent: false,
       },
       {
-        source: '/',
-        destination: '/ameli',
-        permanent: false,
-        has: [
-          {
-            type: 'header',
-            key: 'referer',
-            value: '.*ameli.*',
-          },
-        ],
-      },*/
-      {
-        source: '/(.*)',
-        destination: 'https://www.mesdroitssociaux.gouv.fr?utm_source=mes-aides&utm_medium=basic',
+        source: '/redirection/(.*)',
+        destination: 'https://www.mesdroitssociaux.gouv.fr?utm_source=mes-aides&utm_medium=alternative',
         permanent: false,
       },
     ]

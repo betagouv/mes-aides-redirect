@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   async redirects() {
-    if (process.env.PROXY === 'off') {
+    if (process.env.PROXY !== 'on') {
       return [{
         source: '/(.?)',
         destination: 'https://www.mesdroitssociaux.gouv.fr?utm_source=mes-aides&utm_medium=basic',

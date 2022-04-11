@@ -5,9 +5,6 @@ import {
   NavItem,
   Logo,
   Service,
-  Tool,
-  ToolItemGroup,
-  ToolItem,
   SwitchTheme,
   Container,
   Tile, TileBody, TileImage, Row, Col
@@ -34,11 +31,6 @@ export default function Home() {
             description="Vous informez sur vos aides et vos droits"
           />
         </HeaderBody>
-        <HeaderNav>
-        </HeaderNav>
-        <div className="container">
-
-        </div>
         <Container>
             <Row>
             <Col>

@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Head>
         <title>mes-aides.gouv.fr - Vous informez sur vos aides et vos droits</title>
-        <meta name="description" content="Vous informez sur vos aides et vos droitsp" />
+        <meta name="description" content="Vous informez sur vos aides et vos droits" />
         <link rel="icon" href="https://template.incubateur.net/~/@gouvfr/dsfr/dist/favicon/favicon.svg" />
       </Head>
       <DSHeader>

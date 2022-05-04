@@ -29,14 +29,14 @@ export default function Layout({children}) {
           />
         </HeaderBody>
         <HeaderNav>
-          <Link href="/">
+          <Link href="/" passHref>
             <li className="fr-nav__item">
-              <a href="/" className="fr-nav__link">Accueil</a>
+              <a href="" className="fr-nav__link">Accueil</a>
             </li>
           </Link>
-          <Link href="/questions-frequentes">
+          <Link href="/questions-frequentes" passHref>
             <li className="fr-nav__item">
-              <a href="/questions-frequentes" className="fr-nav__link">Questions fréquentes</a>
+              <a href="" className="fr-nav__link">Questions fréquentes</a>
             </li>
           </Link>
         </HeaderNav>

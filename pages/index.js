@@ -22,7 +22,7 @@ import styles from '../styles/Home.module.css'
 export async function getServerSideProps(context) {
   const referer = context.req.headers.referer
   const ameliDone = context.req.cookies['ameli']
-  if (referer && referer.match(/8000/) && ameliDone != 'done') {
+  if (referer && referer.match(/ameli\.fr/) && ameliDone != 'done') {
     context.res.setHeader('set-cookie', 'ameli=done')
     return {
       redirect: {

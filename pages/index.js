@@ -40,7 +40,7 @@ export default function Home() {
     <Layout>
       <Container spacing="p-3w">
         <h1>Bienvenue sur Mes Aides</h1>
-        <p>Deux simulateurs vous sont proposés pour répondre au mieux à nos questions.</p>
+        <p>Deux simulateurs vous sont proposés pour répondre au mieux à vos questions.</p>
       </Container>
       <CTA source="accueil"/>
       <Container>

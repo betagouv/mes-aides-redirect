@@ -43,7 +43,7 @@ export default function Home() {
         <CTA source="ameli"/>
       </Container>
       <Container>
-        <p>Pour plus d’informations, contactez-nous : <a href="mailto:contact@mes-aides.gouv.fr?subject=Demande d’informations">contact@mes-aides.gouv.fr</a></p>
+        <p>Pour plus d’informations, contactez-nous : <a href="mailto:contact@mes-aides.gouv.fr?subject=Demande de plus d’informations">contact@mes-aides.gouv.fr</a></p>
       </Container>
     </Layout>
   )

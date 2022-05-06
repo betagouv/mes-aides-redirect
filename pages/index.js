@@ -44,7 +44,7 @@ export default function Home() {
       </Container>
       <CTA source="accueil"/>
       <Container>
-        <p>Pour plus d’informations, accédez aux <Link href="/questions-frequentes">questions fréquentes</Link> ou contactez-nous : <a href="mailto:contact@mes-aides.gouv.fr?subject=Demande d’informations">contact@mes-aides.gouv.fr</a></p>
+        <p>Pour plus d’informations, accédez aux <Link href="/questions-frequentes">questions fréquentes</Link>.</p>
       </Container>
     </Layout>
   )

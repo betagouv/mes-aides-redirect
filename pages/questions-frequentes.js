@@ -33,7 +33,7 @@ export default function Home() {
             <p>La procédure est détaillée sur <a href="https://www.ameli.fr/assure/adresses-et-contacts/un-changement-de-situation/declarer-un-nouveau-medecin-traitant">cette page du site de l’Assurance Maladie</a>.</p>
           </AccordionItem>
           <AccordionItem title="Faire une autre demande">
-            <p>Vous pouvez contactez-nous mais <strong>attention</strong>, nous n’avons pas accès à vos informations, demandes et dossiers : <a href="mailto:contact@mes-aides.gouv.fr?subject=Demande d’informations">contact@mes-aides.gouv.fr</a></p>
+            <p>Vous pouvez nous contacter mais nous n’avons pas accès à vos informations, demandes et dossiers : <a href="mailto:contact@mes-aides.gouv.fr?subject=Demande d’informations">contact@mes-aides.gouv.fr</a></p>
           </AccordionItem>
         </Accordion>
       </Container>

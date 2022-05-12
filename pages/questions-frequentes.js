@@ -32,7 +32,7 @@ export default function Home() {
           <AccordionItem title="Déclarer mon médecin traitant">
             <p>La procédure est détaillée sur <a href="https://www.ameli.fr/assure/adresses-et-contacts/un-changement-de-situation/declarer-un-nouveau-medecin-traitant">cette page du site de l’Assurance Maladie</a>.</p>
           </AccordionItem>
-          <AccordionItem title="Faire une autre demande sur votre santé ou sécurité sociale (carte vitale, arrêts maladie, etc.)">
+          <AccordionItem title="Faire une demande sur ma santé, ma sécurité sociale (carte vitale, arrêts maladie, etc.)">
             <p>Vous pouvez vous rendre sur la messagerie en ligne de votre compte ameli<a href="https://assure.ameli.fr/">ou appeler le 36 46.</a></p>
           </AccordionItem>
           <AccordionItem title="Faire une autre demande">

@@ -15,8 +15,8 @@ export default function Layout({children}) {
   return (
     <>
       <Head>
-        <title>mes-aides.gouv.fr - Vous informez sur vos aides et vos droits</title>
-        <meta name="description" content="Vous informez sur vos aides et vos droits" />
+        <title>mes-aides.gouv.fr - Vous informer sur vos aides et vos droits</title>
+        <meta name="description" content="Vous informer sur vos aides et vos droits" />
         <link rel="icon" href="https://template.incubateur.net/~/@gouvfr/dsfr/dist/favicon/favicon.svg" />
       </Head>
       <DSHeader>
@@ -25,7 +25,7 @@ export default function Layout({children}) {
           </Logo>
           <Service
             title="mes-aides.gouv.fr"
-            description="Vous informez sur vos aides et vos droits"
+            description="Vous informer sur vos aides et vos droits"
           />
         </HeaderBody>
         <HeaderNav>

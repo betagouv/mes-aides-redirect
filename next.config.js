@@ -4,7 +4,7 @@ module.exports = {
     if (process.env.PROXY !== 'on') {
       return [{
         source: '/(.?)',
-        destination: 'https://mes-aides.gouv.fr?utm_source=mes-aides&utm_medium=basic',
+        destination: 'https://www.mesdroitssociaux.gouv.fr?utm_source=mes-aides&utm_medium=basic',
         permanent: false,
       }]
     }

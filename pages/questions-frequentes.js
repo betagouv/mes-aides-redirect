@@ -18,7 +18,7 @@ export default function Home() {
         <Accordion keepOpen>
           <AccordionItem title="Savoir si j’ai le droit à la complémentaire santé solidaire, la CMU-C ou à l’ACS">
             <p>Vous pouvez <router-link to="foyer/demandeur">passer la simulation afin de faire le point sur votre situation</router-link>. Si vous avez le droit à la complémentaire santé solidaire (qui remplace la CMU-C et l’ACS depuis le 1ᵉʳ novembre 2019) les simulateurs vous indiqueront comment demander cette aide.</p>
-            <CTA source="ameli-eligibilite-css"/>
+            <CTA source="ameli-eligibilite-css" />
           </AccordionItem>
           <AccordionItem title="Déclarer ma mutuelle auprès d’ameli pour moi ou pour quelqu’un de ma famille">
             <p>Vous devez <a href="https://www.ameli.fr/assure/adresses-et-contacts/vos-paiements/vos-remboursements/comprendre-un-remboursement/part-mutuelle-non-recue">vous renseigner auprès de votre mutuelle pour savoir la marche à suivre</a>. Il s’agit le plus souvent de lui faire parvenir les documents de votre carte vitale afin de permettre la télétransmission.</p>
@@ -36,7 +36,8 @@ export default function Home() {
             <p>Vous pouvez vous rendre sur <a href="https://assure.ameli.fr/">la messagerie en ligne de votre compte ameli</a> ou appeler le 36 46.</p>
           </AccordionItem>
           <AccordionItem title="Faire une autre demande">
-            <p>Vous pouvez nous contacter mais nous n’avons pas accès à vos informations, demandes et dossiers : <a href="mailto:contact@mes-aides.gouv.fr?subject=Demande d’informations">contact@mes-aides.gouv.fr</a></p>
+            <p>Vous pouvez nous contacter à cette adresse : <a href="mailto:contact@mes-aides.gouv.fr?subject=Demande d’informations">contact@mes-aides.gouv.fr</a>.</p>
+            <p>Attention : nous n’avons pas accès à vos informations, demandes et dossiers, car notre équipe est indépendante de l'Assurance Maladie. Vous pouvez la contacter directement en vous rendant sur <a href="https://assure.ameli.fr/">votre messagerie en ligne ameli</a> ou en appelant le 36 46.</p>
           </AccordionItem>
         </Accordion>
       </Container>
@@ -46,7 +47,7 @@ export default function Home() {
 
         <p>Les simulateurs proposés ne sont pas affiliés à l’Assurance Maladie en ligne : nous n’avons pas accès à vos dossiers. Aucun des renseignements que vous entrez sur notre site n’est ensuite transmis à l’Assurance Maladie. Notre but est de faire le point avec vous sur les prestations sociales et aides que vous pouvez demander.</p>
 
-        <CTA source="ameli"/>
+        <CTA source="ameli" />
       </Container>
     </Layout>
   )

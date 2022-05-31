@@ -37,7 +37,7 @@ export default function Home() {
           </AccordionItem>
           <AccordionItem title="Faire une autre demande">
             <p>Vous pouvez nous contacter à cette adresse : <a href="mailto:contact@mes-aides.gouv.fr?subject=Demande d’informations">contact@mes-aides.gouv.fr</a>.</p>
-            <p>Attention : nous n’avons pas accès à vos informations, demandes et dossiers, car notre équipe est indépendante de l'Assurance Maladie. Vous pouvez la contacter directement en vous rendant sur <a href="https://assure.ameli.fr/">votre messagerie en ligne ameli</a> ou en appelant le 36 46.</p>
+            <p>Attention : nous n’avons pas accès à vos informations, demandes et dossiers, car notre équipe est indépendante de l&apos;Assurance Maladie. Vous pouvez la contacter directement en vous rendant sur <a href="https://assure.ameli.fr/">votre messagerie en ligne ameli</a> ou en appelant le 36 46.</p>
           </AccordionItem>
         </Accordion>
       </Container>

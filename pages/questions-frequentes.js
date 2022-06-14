@@ -16,7 +16,7 @@ export default function Home() {
 
         <h2>Que souhaitez-vous ?</h2>
         <Accordion keepOpen>
-          <AccordionItem title="Savoir si j’ai le droit à la complémentaire santé solidaire, la CMU-C ou à l’ACS">
+          <AccordionItem title="Savoir si j’ai le droit à la complémentaire santé solidaire (anciennement CMU-C ou ACS)">
             <p>Vous pouvez <router-link to="foyer/demandeur">passer la simulation afin de faire le point sur votre situation</router-link>. Si vous avez le droit à la complémentaire santé solidaire (qui remplace la CMU-C et l’ACS depuis le 1ᵉʳ novembre 2019) les simulateurs vous indiqueront comment demander cette aide.</p>
             <CTA source="ameli-eligibilite-css" />
           </AccordionItem>

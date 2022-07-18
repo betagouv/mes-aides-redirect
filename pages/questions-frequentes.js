@@ -16,8 +16,17 @@ export default function Home() {
 
         <h2>Que souhaitez-vous ?</h2>
         <Accordion keepOpen>
-          <AccordionItem title="Savoir si j’ai le droit à la complémentaire santé solidaire (anciennement CMU-C ou ACS)">
-            <p>Vous pouvez <router-link to="foyer/demandeur">passer la simulation afin de faire le point sur votre situation</router-link>. Si vous avez le droit à la complémentaire santé solidaire (qui remplace la CMU-C et l’ACS depuis le 1ᵉʳ novembre 2019) les simulateurs vous indiqueront comment demander cette aide.</p>
+          <AccordionItem title="Pourquoi ai-je besoin d’une complémentaire santé ?">
+            <p>En France, pour être remboursé sur l’ensemble de ses dépenses de santé, il est indispensable de disposer d’une complémentaire car les régimes de sécurité sociale ne prennent en charge qu’une partie de ces dépenses.</p>
+            <p>Si vous n’avez pas de complémentaire, alors vous devrez régler par vos propres moyens cette partie des dépenses non couverte par votre régime de sécurité sociale.</p>
+          </AccordionItem>
+          <AccordionItem title="Savoir si j’ai le droit à la complémentaire santé solidaire">
+            <p>La complémentaire santé solidaire est une complémentaire santé destinée à des publics qui ont de faibles revenus.<br />En plus de la prise en charge de cette partie des dépenses de santé, la complémentaire santé solidaire offre des avantages importants à ses bénéficiaires :</p>
+            <ul>
+              <li>Ils n’ont pas à avancer de frais quand ils se rendent chez un médecin ;</li>
+              <li>Les médecins ne peuvent pas pratiquer de dépassements d&apos;honoraires ;</li>
+              <li>Ils bénéficient du <a href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/100pourcent-sante/article/100-sante-faciliter-l-acces-aux-soins-et-aux-equipements-auditifs-optiques-et">100% santé</a> : appareils auditifs, prothèses dentaires et lunettes de vue entièrement remboursés lorsqu’ils sont choisis dans les paniers de l’offre 100% Santé.<br />Pour bénéficier de la complémentaire santé solidaire, vous ne devez pas percevoir des ressources annuelles supérieures à un certain plafond : en fonction du niveau de ressources de votre foyer, la complémentaire santé solidaire sera gratuite ou supposera le règlement mensuel d’une participation financière qui varie en fonction de l’âge et est de 30 euros par mois au maximum.<br />Vous pouvez réaliser une simulation afin de savoir si votre situation vous permet de bénéficier de la complémentaire santé solidaire : si c’est le cas, les simulateurs vous indiqueront comment demander cette aide. </li>
+            </ul>
             <CTA source="ameli-eligibilite-css" />
           </AccordionItem>
           <AccordionItem title="Déclarer ma mutuelle auprès d’ameli pour moi ou pour quelqu’un de ma famille">

@@ -12,7 +12,7 @@ module.exports = {
     return [
       {
         source: '/redirection/1jeune1solution',
-        destination: 'https://www.1jeune1solution.gouv.fr/mes-aides?utm_source=mes-aides-:utm_source&utm_medium=alternative',
+        destination: 'https://mes-aides.1jeune1solution.beta.gouv.fr?utm_source=mes-aides-:utm_source&utm_medium=alternative',
         permanent: false,
         has: [{
           type: 'query',
@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         source: '/redirection/1jeune1solution',
-        destination: 'https://www.1jeune1solution.gouv.fr/mes-aides?utm_source=mes-aides&utm_medium=alternative',
+        destination: 'https://mes-aides.1jeune1solution.beta.gouv.fr?utm_source=mes-aides&utm_medium=alternative',
         permanent: false,
       },
       {

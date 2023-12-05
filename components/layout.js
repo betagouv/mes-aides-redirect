@@ -18,6 +18,22 @@ export default function Layout({children}) {
         <title>mes-aides.gouv.fr - Vous informer sur vos aides et vos droits</title>
         <meta name="description" content="Vous informer sur vos aides et vos droits" />
         <link rel="icon" href="https://template.incubateur.net/~/@gouvfr/dsfr/dist/favicon/favicon.svg" />
+        <script
+              dangerouslySetInnerHTML={{
+                __html: `
+              var _paq = _paq || [];
+              /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+              _paq.push(['trackPageView']);
+              _paq.push(['enableLinkTracking']);
+              (function() {
+                var u="//stats.data.gouv.fr/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', '9']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+              })();
+            `}}
+        />
       </Head>
       <DSHeader>
         <HeaderBody>

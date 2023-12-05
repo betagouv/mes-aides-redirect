@@ -27,7 +27,7 @@ export default function CTA({source}) {
           <Tile>
               <TileBody
                   title="1jeune1solution.gouv.fr"
-                  description="pour les moins de 30 ans"
+                  description="Simulateur pour les moins de 30 ans"
                   linkHref={`/redirection/1jeune1solution${sourceParam}`}>
                   <p>Évaluer vos droits à plus de 500 aides</p>
               </TileBody>

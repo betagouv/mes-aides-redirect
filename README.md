@@ -2,12 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+As we want to reach [mes-aides.gouv.fr](https://mes-aides.gouv.fr/), run the development server with:
 
 ```bash
-npm run dev
+PROXY=on npm run dev
 # or
-yarn dev
+PROXY=on yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
